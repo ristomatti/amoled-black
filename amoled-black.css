@@ -1,0 +1,30 @@
+/*******************************************************************************
+ * AMOLED Black & White
+ *   
+ * Theme featuring black background, grey text and white links. Specifically
+ * designed for AMOLED displays.
+ *
+ * Copyright (c) 2015 Ristomatti Airo
+ *
+ * Version: 1.0
+ */
+
+@namespace url(http://www.w3.org/1999/xhtml);
+
+* {
+	background: #000 !important;
+	color: #CCC !important;
+	border-color: #222 !important;
+	text-shadow: none !important;
+	word-break: break-word; 
+}
+
+a, a * {
+	color: #FFF !important;
+	text-decoration: none !important;
+}
+
+a:visited, a:visited *, *[href]:visited {
+	color: #EEE !important;
+}
+
